@@ -8,5 +8,7 @@ I wanted to create a script that would prompt me for a youtube URL, downloads th
 to wav, then to txt. It then sends then sends the txt to ChatGPT and has it summarize the txt and saves it as 
 output.txt. 
 
+Make sure to go to line 51 and insert your OpenAI API key in the designated area.
+
 
 This is my first python program. 
