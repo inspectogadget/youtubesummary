@@ -48,7 +48,7 @@ except Exception as e:
     print(f"An error occurred while recognizing speech: {e}")
 
 # Summarize the transcript using OpenAI
-openai.api_key = "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"
+openai.api_key = "INSERT API-KEY HERE"
 with open("1.txt", "r") as file:
     input_text = file.read()
 response = openai.Completion.create(
